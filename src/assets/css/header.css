@@ -1,0 +1,23 @@
+.navbar ul{
+    display: flex;
+    float: right;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a{
+    padding: 0 10px;
+    color: white !important;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbar .logo{
+
+}
+
+.navbar .logo img{
+    width: 116px;
+}
