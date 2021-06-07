@@ -19,9 +19,9 @@ function App() {
        <Header/>
        <Switch>
          <Route path="/home"><Home/></Route>
-         <Route path="/home"><Home/></Route>
-         <Route path="/home"><Home/></Route>
-         <Route path="/home"><Home/></Route>
+         <Route path="/about"><About/></Route>
+         <Route path="/contact"><Contact/></Route>
+         <Route path="/"><Home/></Route>
 
        </Switch>
      </Router>

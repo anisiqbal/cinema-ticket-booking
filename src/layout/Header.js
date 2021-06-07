@@ -9,7 +9,7 @@ function Header(){
     return(
         <nav class="navbar navbar-dark bg-primary">
             <div className="container">
-                <div className="row">
+                <div className="row w-100">
                     <div className="col-md-3">
                         <a className="logo">
                             <img src={logo}/>

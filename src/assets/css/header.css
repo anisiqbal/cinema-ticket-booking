@@ -15,7 +15,7 @@
 }
 
 .navbar .logo{
-
+    cursor: pointer;
 }
 
 .navbar .logo img{
