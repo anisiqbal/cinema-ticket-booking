@@ -10,6 +10,8 @@ import Header from './layout/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import Detail from './components/Detail';
+import Card from './shared/Card';
 
 
 function App() {
@@ -21,8 +23,7 @@ function App() {
          <Route path="/home"><Home/></Route>
          <Route path="/about"><About/></Route>
          <Route path="/contact"><Contact/></Route>
-         <Route path="/"><Home/></Route>
-
+         <Route path="/detail"><Detail/></Route>
        </Switch>
      </Router>
 

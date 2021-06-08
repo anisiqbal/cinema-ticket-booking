@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import{
+    Link
+} from "react-router-dom";
 import Card from '../shared/Card';
 
 
@@ -18,8 +21,9 @@ function Home(){
                             products.map((item,i) => {
                                 return(
                                     <div className ="col-md-3 mt-3">
-                                        <Card data={item}/>
-
+                                         <Link to="/detail">
+                                            <Card data={item}/>
+                                         </Link>
                                     </div>
                                 )
 
