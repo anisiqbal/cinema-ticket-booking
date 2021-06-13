@@ -26,6 +26,9 @@ function Header(){
                             <li>
                                <Link to="/Contact">Contact</Link>
                             </li>
+                            <li>
+                               <Link to="/Cart">Cart</Link>
+                            </li>
                         </ul>
 
                     </div>

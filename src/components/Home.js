@@ -7,7 +7,7 @@ import Card from '../shared/Card';
 
 function Home(){
     const [products, setProduct] = useState ([
-
+        
         { Id: 1, name: 'Power Movie', price: 1000 , description: 'There are many variations of passages of Lorem Ipsum available' },
         { Id: 1, name: 'Barry Movie', price: 6000 , description: 'There are many variations of passages of Lorem Ipsum available' },
         { Id: 1, name: 'Bright Movie', price: 8000 , description: 'There are many variations of passages of Lorem Ipsum available' },
@@ -20,7 +20,7 @@ function Home(){
                         {
                             products.map((item,i) => {
                                 return(
-                                    <div className ="col-md-3 mt-3">
+                                    <div className ="col-md-3 my-3">
                                          <Link to="/detail">
                                             <Card data={item}/>
                                          </Link>
