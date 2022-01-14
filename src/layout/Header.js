@@ -1,6 +1,5 @@
 import '../assets/css/header.css';
 import logo from '../assets/img/logo.png'
-
 import{ Link }from "react-router-dom";
 
 function Header(){
@@ -12,7 +11,7 @@ function Header(){
 
                         <div className="col-3">
                             <a className="logo">
-                                <img src={logo}/>
+                                <a href="/home"><img src={logo}/></a>
                             </a>
                         </div>
 

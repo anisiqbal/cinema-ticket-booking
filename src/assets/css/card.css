@@ -1,0 +1,20 @@
+.card .press{
+    margin-top: 20px;
+}
+
+.card .card-body .press a{
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    padding: 10px 30px;
+    list-style: none;
+    background-color: #008b7ed6;
+    border-radius: 7px;
+}
+
+.card .press a:hover{
+    transition: 0.5s;
+    opacity: 0.5s;
+    color: white;
+    background-color: orange;
+}
