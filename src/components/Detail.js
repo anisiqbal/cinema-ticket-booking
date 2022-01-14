@@ -24,7 +24,7 @@ function Detail() {
                             </div>
 
                             <div className="press">
-                                <a href="/Cart">Sumbit</a>
+                                <a href="/cart">Sumbit</a>
                             </div>
                         </div>
                     </div>

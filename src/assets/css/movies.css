@@ -1,0 +1,52 @@
+.movies{
+    padding: 50px 0;
+}
+
+.movies .movies-inner .card{
+    margin-top: 15px;
+}
+
+.movies .movies-inner .card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.movies .movies-inner .details{
+    padding: 20px 15px;
+}
+
+.movies .movies-inner .details h4{
+    font-size: 20px;
+}
+
+.movies .movies-inner .details h6{
+    color: orange;
+    font-size: 14px;
+}
+
+.movies .movies-inner .details p{
+    font-size: 13px;
+    color: gray;
+}
+
+.movies .movies-inner .details .btns{
+    margin-top: 20px;
+}
+
+.movies .movies-inner .details .btns a{
+    font-size: 13px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #008b7ed6;
+    border-radius: 7px;
+}
+
+.movies .movies-inner .details .btns a:hover{
+    transition: 0.5s;
+    opacity: 0.5s;
+    color: white;
+    background-color: orange;
+}

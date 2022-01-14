@@ -18,9 +18,9 @@ function Header(){
                         <div  className="col-9">
                             <ul>
                                 <li><Link to="/home">Home</Link></li>
-                                <li><Link to="/About">About</Link></li>
-                                <li><Link to="/Contact">Contact</Link></li>
-                                <li><Link to="/Cart">Cart</Link></li>
+                                <li><Link to="/movies">Movies</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
+                                <li><Link to="/cart">Cart</Link></li>
                             </ul>
                         </div>
                     </div>
