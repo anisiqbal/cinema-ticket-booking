@@ -1,0 +1,33 @@
+.contact{
+    padding: 50px 0;
+}
+
+.contact label{
+    margin-top: 10px;
+}
+
+.contact input{
+    margin-top: 6px;
+}
+
+.contact .press{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact .press a{
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #008b7ed6;
+    border-radius: 7px;
+}
+
+.contact .press a:hover{
+    transition: 0.5s;
+    opacity: 0.5s;
+    color: white;
+    background-color: orange;
+}
