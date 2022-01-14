@@ -1,2 +1,20 @@
+.cart{
+    padding: 50px 0;
+}
 
+.cart .inner{
+    margin-top: 10px;
+}
+
+.cart .inner img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.cart .inner h4{
+    font-size: 16px;
+}
 
