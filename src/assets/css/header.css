@@ -1,23 +1,36 @@
-.navbar ul{
-    display: flex;
-    float: right;
+.header{
+    padding: 5px 0;
+    background-color: black;
 }
 
-.navbar ul li {
+.header .logo{
+    
+}
+
+.header .logo img{
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header ul{
+    display: flex;
+    float: right;
+    margin: 25px 0 0 0;
     list-style: none;
 }
 
-.navbar ul li a{
-    padding: 0 10px;
-    color: white !important;
-    font-size: 15px;
+.header li a{
+    text-decoration: none;
     cursor: pointer;
+    font-size: 16px;
+    color: white;
+    padding: 0 12px;
 }
 
-.navbar .logo{
-    cursor: pointer;
-}
-
-.navbar .logo img{
-    width: 116px;
+.header li a:hover{
+    transition: 0.5s;
+    opacity: 0.5s;
+    color: orange;
 }
