@@ -46,3 +46,35 @@
 .products{
     padding: 50px 0;
 }
+
+.question{
+    padding: 30px 0;
+    background-color: #efefef;
+}
+
+.question .left h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.question .press{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.question .press a{
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: #008b7ed6;
+    border-radius: 7px;
+}
+
+.question .press a:hover{
+    transition: 0.5s;
+    opacity: 0.5s;
+    color: white;
+    background-color: orange;
+}

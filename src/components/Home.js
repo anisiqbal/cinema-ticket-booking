@@ -52,6 +52,28 @@ function Home() {
                 </div>
             </section>
 
+            <section>
+                <div className="question">
+                    <div className="container">
+                        <div className="row">
+                        
+                        <div className="col-6">
+                            <div className="left">
+                            <h1>Still Have Any Question!</h1>
+                            </div>
+                        </div>
+
+                        <div className="col-6">
+                            <div className="press">
+                                <a href="/contact">Contact Us</a>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
     );
 }
